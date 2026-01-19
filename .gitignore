@@ -1,0 +1,52 @@
+### Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+### Virtual environments
+.env
+.venv
+venv/
+env/
+
+### Jupyter
+.ipynb_checkpoints/
+
+### Logs & debug
+logs/
+*.log
+
+### Model artifacts & checkpoints
+checkpoints/
+models/**/*.pt
+models/**/*.bin
+models/**/*.ckpt
+models/**/hf_cache/
+
+### Data (keep only small config-like files in Git)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+### IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### OS-specific
+.DS_Store
+Thumbs.db
+
+### Kaggle / misc
+.kaggle/
+
